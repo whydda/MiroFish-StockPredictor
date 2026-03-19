@@ -2,202 +2,237 @@
 
 <img src="./static/image/MiroFish_logo_compressed.jpeg" alt="MiroFish Logo" width="75%"/>
 
-<a href="https://trendshift.io/repositories/16144" target="_blank"><img src="https://trendshift.io/api/badge/repositories/16144" alt="666ghj%2FMiroFish | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+# MiroFish 주식 예측 서비스
 
-简洁通用的群体智能引擎，预测万物
-</br>
-<em>A Simple and Universal Swarm Intelligence Engine, Predicting Anything</em>
+**AI 멀티 에이전트 시뮬레이션 기반 한국 주식(KOSPI/KOSDAQ) 예측 엔진**
 
-<a href="https://www.shanda.com/" target="_blank"><img src="./static/image/shanda_logo.png" alt="666ghj%2MiroFish | Shanda" height="40"/></a>
-
-[![GitHub Stars](https://img.shields.io/github/stars/666ghj/MiroFish?style=flat-square&color=DAA520)](https://github.com/666ghj/MiroFish/stargazers)
-[![GitHub Watchers](https://img.shields.io/github/watchers/666ghj/MiroFish?style=flat-square)](https://github.com/666ghj/MiroFish/watchers)
-[![GitHub Forks](https://img.shields.io/github/forks/666ghj/MiroFish?style=flat-square)](https://github.com/666ghj/MiroFish/network)
+[![Based on MiroFish](https://img.shields.io/badge/Based_on-MiroFish-DAA520?style=flat-square)](https://github.com/666ghj/MiroFish)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)](https://vuejs.org/)
+[![Flask](https://img.shields.io/badge/Flask-3.0+-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![Docker](https://img.shields.io/badge/Docker-Build-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/666ghj/MiroFish)
-
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/channels/1469200078932545606/1469201282077163739)
-[![X](https://img.shields.io/badge/X-Follow-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/mirofish_ai)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/mirofish_ai/)
-
-[English](./README-EN.md) | [中文文档](./README.md)
+[![License](https://img.shields.io/badge/License-AGPL_3.0-blue?style=flat-square)](./LICENSE)
 
 </div>
 
-## ⚡ 项目概述
+---
 
-**MiroFish** 是一款基于多智能体技术的新一代 AI 预测引擎。通过提取现实世界的种子信息（如突发新闻、政策草案、金融信号），自动构建出高保真的平行数字世界。在此空间内，成千上万个具备独立人格、长期记忆与行为逻辑的智能体进行自由交互与社会演化。你可透过「上帝视角」动态注入变量，精准推演未来走向——**让未来在数字沙盘中预演，助决策在百战模拟后胜出**。
+## 개요
 
-> 你只需：上传种子材料（数据分析报告或者有趣的小说故事），并用自然语言描述预测需求</br>
-> MiroFish 将返回：一份详尽的预测报告，以及一个可深度交互的高保真数字世界
+[MiroFish](https://github.com/666ghj/MiroFish)의 멀티 에이전트 시뮬레이션 엔진을 활용하여 **한국 주식 시장을 예측**하는 서비스입니다.
 
-### 我们的愿景
+뉴스, 재무 데이터, 시장 센티먼트를 수집한 뒤, 애널리스트·투자자·외국인·언론사 등 다양한 역할의 AI 에이전트가 시뮬레이션을 수행하고, 그 결과를 종합한 **예측 보고서**를 생성합니다.
 
-MiroFish 致力于打造映射现实的群体智能镜像，通过捕捉个体互动引发的群体涌现，突破传统预测的局限：
+### 작동 방식
 
-- **于宏观**：我们是决策者的预演实验室，让政策与公关在零风险中试错
-- **于微观**：我们是个人用户的创意沙盘，无论是推演小说结局还是探索脑洞，皆可有趣、好玩、触手可及
-
-从严肃预测到趣味仿真，我们让每一个如果都能看见结果，让预测万物成为可能。
-
-## 🌐 在线体验
-
-欢迎访问在线 Demo 演示环境，体验我们为你准备的一次关于热点舆情事件的推演预测：[mirofish-live-demo](https://666ghj.github.io/mirofish-demo/)
-
-## 📸 系统截图
-
-<div align="center">
-<table>
-<tr>
-<td><img src="./static/image/Screenshot/运行截图1.png" alt="截图1" width="100%"/></td>
-<td><img src="./static/image/Screenshot/运行截图2.png" alt="截图2" width="100%"/></td>
-</tr>
-<tr>
-<td><img src="./static/image/Screenshot/运行截图3.png" alt="截图3" width="100%"/></td>
-<td><img src="./static/image/Screenshot/运行截图4.png" alt="截图4" width="100%"/></td>
-</tr>
-<tr>
-<td><img src="./static/image/Screenshot/运行截图5.png" alt="截图5" width="100%"/></td>
-<td><img src="./static/image/Screenshot/运行截图6.png" alt="截图6" width="100%"/></td>
-</tr>
-</table>
-</div>
-
-## 🎬 演示视频
-
-### 1. 武汉大学舆情推演预测 + MiroFish项目讲解
-
-<div align="center">
-<a href="https://www.bilibili.com/video/BV1VYBsBHEMY/" target="_blank"><img src="./static/image/武大模拟演示封面.png" alt="MiroFish Demo Video" width="75%"/></a>
-
-点击图片查看使用微舆BettaFish生成的《武大舆情报告》进行预测的完整演示视频
-</div>
-
-### 2. 《红楼梦》失传结局推演预测
-
-<div align="center">
-<a href="https://www.bilibili.com/video/BV1cPk3BBExq" target="_blank"><img src="./static/image/红楼梦模拟推演封面.jpg" alt="MiroFish Demo Video" width="75%"/></a>
-
-点击图片查看基于《红楼梦》前80回数十万字，MiroFish深度预测失传结局
-</div>
-
-> **金融方向推演预测**、**时政要闻推演预测**等示例陆续更新中...
-
-## 🔄 工作流程
-
-1. **图谱构建**：现实种子提取 & 个体与群体记忆注入 & GraphRAG构建
-2. **环境搭建**：实体关系抽取 & 人设生成 & 环境配置Agent注入仿真参数
-3. **开始模拟**：双平台并行模拟 & 自动解析预测需求 & 动态更新时序记忆
-4. **报告生成**：ReportAgent拥有丰富的工具集与模拟后环境进行深度交互
-5. **深度互动**：与模拟世界中的任意一位进行对话 & 与ReportAgent进行对话
-
-## 🚀 快速开始
-
-### 一、源码部署（推荐）
-
-#### 前置要求
-
-| 工具 | 版本要求 | 说明 | 安装检查 |
-|------|---------|------|---------|
-| **Node.js** | 18+ | 前端运行环境，包含 npm | `node -v` |
-| **Python** | ≥3.11, ≤3.12 | 后端运行环境 | `python --version` |
-| **uv** | 最新版 | Python 包管理器 | `uv --version` |
-
-#### 1. 配置环境变量
-
-```bash
-# 复制示例配置文件
-cp .env.example .env
-
-# 编辑 .env 文件，填入必要的 API 密钥
+```
+종목 선택 → 데이터 수집 → 지식 그래프 구축 → 에이전트 시뮬레이션 → 예측 보고서
 ```
 
-**必需的环境变量：**
+| 단계 | 설명 | 기술 |
+|------|------|------|
+| **데이터 수집** | 네이버 금융 뉴스 + KRX 재무 데이터 | BeautifulSoup, pykrx |
+| **지식 그래프** | 수집 데이터 기반 GraphRAG 구성 | Zep Cloud |
+| **시뮬레이션** | 10종 에이전트가 투자 의사결정 시뮬레이션 | OASIS + LLM |
+| **보고서 생성** | 시뮬레이션 합의 기반 예측 보고서 | LLM (GPT, DeepSeek 등) |
 
-```env
-# LLM API配置（支持 OpenAI SDK 格式的任意 LLM API）
-# 推荐使用阿里百炼平台qwen-plus模型：https://bailian.console.aliyun.com/
-# 注意消耗较大，可先进行小于40轮的模拟尝试
-LLM_API_KEY=your_api_key
-LLM_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
-LLM_MODEL_NAME=qwen-plus
+---
 
-# Zep Cloud 配置
-# 每月免费额度即可支撑简单使用：https://app.getzep.com/
-ZEP_API_KEY=your_zep_api_key
-```
+## 시뮬레이션 에이전트
 
-#### 2. 安装依赖
+시뮬레이션에 참여하는 AI 에이전트 역할:
+
+| 에이전트 | 역할 | 행동 패턴 |
+|----------|------|-----------|
+| **Analyst** | 증권사 애널리스트 | 기술적·기본적 분석 기반 의견 제시 |
+| **Investor** | 개인/기관 투자자 | 뉴스와 분석에 반응하여 매수/매도 결정 |
+| **ForeignInvestor** | 외국인 투자자 | 글로벌 시각, 대형주 중심 판단 |
+| **CompanyExecutive** | 기업 임원 | 내부자 관점의 기업 가치 평가 |
+| **Regulator** | 금융감독원 등 | 규제 리스크 평가 |
+| **MediaOutlet** | 경제 언론사 | 뉴스 생산 및 여론 형성 |
+| **MarketMaker** | 시장조성자 | 유동성 및 수급 분석 |
+| **IndustryExpert** | 산업 전문가 | 섹터별 전문 분석 |
+
+---
+
+## 빠른 시작
+
+### 사전 요구사항
+
+- Python 3.11+
+- Node.js 18+
+- LLM API 키 (OpenAI, DeepSeek 등 OpenAI SDK 호환)
+- Zep Cloud API 키 ([getzep.com](https://www.getzep.com/))
+
+### 1. 클론 및 설치
 
 ```bash
-# 一键安装所有依赖（根目录 + 前端 + 后端）
-npm run setup:all
-```
+git clone https://github.com/whydda/MiroFish-StockPredictor.git
+cd MiroFish-StockPredictor
 
-或者分步安装：
-
-```bash
-# 安装 Node 依赖（根目录 + 前端）
+# 의존성 설치
 npm run setup
-
-# 安装 Python 依赖（后端，自动创建虚拟环境）
 npm run setup:backend
 ```
 
-#### 3. 启动服务
+### 2. 환경 설정
 
 ```bash
-# 同时启动前后端（在项目根目录执行）
+cp .env.example .env
+```
+
+`.env` 파일을 편집하세요:
+
+```env
+# LLM 설정
+LLM_API_KEY=your_api_key_here
+LLM_BASE_URL=https://api.openai.com/v1
+LLM_MODEL_NAME=gpt-4o-mini
+
+# Zep Cloud 설정
+ZEP_API_KEY=your_zep_api_key_here
+```
+
+<details>
+<summary><b>LLM 선택 가이드</b></summary>
+
+| LLM | BASE_URL | MODEL_NAME | 특징 |
+|-----|----------|------------|------|
+| OpenAI | `https://api.openai.com/v1` | `gpt-4o-mini` | 안정적, 범용 |
+| DeepSeek | `https://api.deepseek.com/v1` | `deepseek-chat` | 가성비 우수 |
+| Alibaba Qwen | `https://dashscope.aliyuncs.com/compatible-mode/v1` | `qwen-plus` | 저렴 |
+
+</details>
+
+### 3. 실행
+
+```bash
+# 백엔드(5001) + 프론트엔드(3000) 동시 실행
 npm run dev
 ```
 
-**服务地址：**
-- 前端：`http://localhost:3000`
-- 后端 API：`http://localhost:5001`
+브라우저에서 **http://localhost:3000/stock** 접속
 
-**单独启动：**
+### Docker로 실행
 
 ```bash
-npm run backend   # 仅启动后端
-npm run frontend  # 仅启动前端
+docker-compose up --build
 ```
 
-### 二、Docker 部署
+---
 
-```bash
-# 1. 配置环境变量（同源码部署）
-cp .env.example .env
+## 사용 방법
 
-# 2. 拉取镜像并启动
-docker compose up -d
+1. `/stock` 페이지에서 **종목 검색** (예: "삼성전자", "005930")
+2. 종목을 선택하고 **분석 시작** 클릭
+3. 자동으로 뉴스 수집 → 재무 분석 → 그래프 구축 → 시뮬레이션 진행
+4. 완료 후 **예측 보고서** 확인 (상승/하락/보합 확률, 투자 의견 등)
+
+---
+
+## API
+
+| 메서드 | 경로 | 설명 |
+|--------|------|------|
+| `GET` | `/api/stock/search?query=삼성` | 종목 검색 |
+| `POST` | `/api/stock/analyze` | 종목 분석 시작 |
+| `GET` | `/api/stock/analyze/:taskId/status` | 분석 진행 상태 |
+| `POST` | `/api/stock/simulate` | 시뮬레이션 시작 |
+| `GET` | `/api/stock/simulate/:simId/status` | 시뮬레이션 상태 |
+| `POST` | `/api/stock/report/:simId` | 보고서 생성 |
+| `GET` | `/api/stock/report/:reportId` | 보고서 조회 |
+
+---
+
+## 프로젝트 구조
+
+```
+MiroFish-StockPredictor/
+├── backend/
+│   └── app/
+│       ├── api/
+│       │   ├── stock.py                      # 주식 예측 API
+│       │   ├── graph.py                      # 그래프 API (원본)
+│       │   ├── simulation.py                 # 시뮬레이션 API (원본)
+│       │   └── report.py                     # 보고서 API (원본)
+│       ├── services/
+│       │   ├── stock_data_collector.py        # 뉴스/재무 데이터 수집
+│       │   ├── stock_ontology.py              # 주식 시장 온톨로지
+│       │   ├── stock_simulation_config.py     # 시뮬레이션 설정 생성
+│       │   ├── stock_report_agent.py          # 예측 보고서 생성
+│       │   ├── graph_builder.py               # 그래프 빌더 (원본)
+│       │   ├── simulation_runner.py           # 시뮬레이션 러너 (원본)
+│       │   └── report_agent.py                # 보고서 에이전트 (원본)
+│       ├── utils/
+│       │   ├── llm_client.py                  # LLM 클라이언트
+│       │   └── ...
+│       └── config.py                          # 설정 관리
+├── frontend/
+│   └── src/
+│       ├── views/
+│       │   └── StockPrediction.vue            # 주식 예측 UI
+│       ├── api/
+│       │   └── stock.js                       # API 클라이언트
+│       └── router/
+│           └── index.js                       # 라우팅
+├── .env.example
+├── docker-compose.yml
+├── STOCK_PREDICTION_GUIDE.md                  # 상세 실행 가이드
+└── README.md
 ```
 
-默认会读取根目录下的 `.env`，并映射端口 `3000（前端）/5001（后端）`
+---
 
-> 在 `docker-compose.yml` 中已通过注释提供加速镜像地址，可按需替换
+## 기술 스택
 
-## 📬 更多交流
+| 분류 | 기술 |
+|------|------|
+| **백엔드** | Python 3.11, Flask, OpenAI SDK |
+| **프론트엔드** | Vue 3, Vite |
+| **데이터 수집** | pykrx (KRX), BeautifulSoup (네이버 금융) |
+| **시뮬레이션 엔진** | [OASIS](https://github.com/camel-ai/oasis) (CAMEL-AI) |
+| **지식 그래프** | [Zep Cloud](https://www.getzep.com/) |
+| **LLM** | OpenAI, DeepSeek, Qwen 등 (OpenAI SDK 호환) |
+| **배포** | Docker, docker-compose |
 
-<div align="center">
-<img src="./static/image/QQ群.png" alt="QQ交流群" width="60%"/>
-</div>
+---
 
-&nbsp;
+## 커스터마이징
 
-MiroFish团队长期招募全职/实习，如果你对多Agent应用感兴趣，欢迎投递简历至：**mirofish@shanda.com**
+- **에이전트 역할 수정**: `stock_ontology.py`에서 에이전트 타입과 속성 변경
+- **감성 분석 키워드**: `stock_data_collector.py`의 `POSITIVE_KEYWORDS` / `NEGATIVE_KEYWORDS` 확장
+- **시뮬레이션 설정**: `stock_simulation_config.py`에서 라운드 수, 에이전트 수, 활동 패턴 조정
+- **보고서 구조**: `stock_report_agent.py`에서 보고서 섹션 및 프롬프트 수정
 
-## 📄 致谢
+---
 
-**MiroFish 得到了盛大集团的战略支持和孵化！**
+## 향후 계획
 
-MiroFish 的仿真引擎由 **[OASIS](https://github.com/camel-ai/oasis)** 驱动，我们衷心感谢 CAMEL-AI 团队的开源贡献！
+- [ ] 실시간 주가 차트 연동 (TradingView 위젯)
+- [ ] 뉴스 소스 확장 (한경, 매경, 연합뉴스 등)
+- [ ] 시뮬레이션 백테스팅 기능
+- [ ] 다중 종목 포트폴리오 분석
+- [ ] 시뮬레이션 결과 시각화 개선
 
-## 📈 项目统计
+---
 
-<a href="https://www.star-history.com/#666ghj/MiroFish&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=666ghj/MiroFish&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=666ghj/MiroFish&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=666ghj/MiroFish&type=date&legend=top-left" />
- </picture>
-</a>
+## ⚠️ 면책 조항
+
+> **본 서비스는 AI 시뮬레이션 기반 실험적 프로젝트이며, 실제 투자 조언이 아닙니다.**
+>
+> - 시뮬레이션 결과는 참고용이며 투자 판단의 근거가 될 수 없습니다.
+> - 모든 투자 결정은 본인의 책임 하에 이루어져야 합니다.
+> - 과거 데이터 기반 분석이므로 미래 수익을 보장하지 않습니다.
+
+---
+
+## 감사
+
+- [MiroFish](https://github.com/666ghj/MiroFish) — 원본 멀티 에이전트 시뮬레이션 엔진
+- [OASIS](https://github.com/camel-ai/oasis) — 소셜 시뮬레이션 프레임워크 (CAMEL-AI)
+- [Zep](https://www.getzep.com/) — 지식 그래프 메모리
+- [pykrx](https://github.com/sharebook-kr/pykrx) — 한국거래소 데이터
+
+## 라이선스
+
+[AGPL-3.0](./LICENSE) — 원본 MiroFish 라이선스 준수
