@@ -1,5 +1,6 @@
 """
-API路由模块
+API 라우트 모듈
+기존 Blueprint(graph, simulation, report)와 주식 예측 Blueprint(stock)를 등록합니다.
 """
 
 from flask import Blueprint
@@ -12,3 +13,5 @@ from . import graph  # noqa: E402, F401
 from . import simulation  # noqa: E402, F401
 from . import report  # noqa: E402, F401
 
+# 주식 예측 Blueprint - stock.py 내부에서 정의된 stock_bp를 가져옵니다
+from .stock import stock_bp  # noqa: E402, F401

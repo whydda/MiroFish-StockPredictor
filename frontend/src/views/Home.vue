@@ -4,6 +4,9 @@
     <nav class="navbar">
       <div class="nav-brand">MIROFISH</div>
       <div class="nav-links">
+        <router-link to="/stock" class="stock-nav-link">
+          <span class="stock-nav-icon">📈</span> 주식 예측
+        </router-link>
         <a href="https://github.com/666ghj/MiroFish" target="_blank" class="github-link">
           访问我们的Github主页 <span class="arrow">↗</span>
         </a>
@@ -200,6 +203,18 @@
         </div>
       </section>
 
+      <!-- 주식 예측 배너 -->
+      <section class="stock-banner">
+        <div class="stock-banner-content">
+          <div class="stock-banner-icon">📈</div>
+          <div class="stock-banner-text">
+            <div class="stock-banner-title">NEW — AI 주식 예측 서비스</div>
+            <div class="stock-banner-desc">한국 주식 종목을 선택하고 MiroFish AI가 뉴스·재무·그래프 분석으로 예측 보고서를 자동 생성합니다.</div>
+          </div>
+          <router-link to="/stock" class="stock-banner-btn">지금 시작하기 →</router-link>
+        </div>
+      </section>
+
       <!-- 历史项目数据库 -->
       <HistoryDatabase />
     </div>
@@ -351,6 +366,33 @@ const startSimulation = () => {
 .nav-links {
   display: flex;
   align-items: center;
+}
+
+.stock-nav-link {
+  color: var(--white);
+  text-decoration: none;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #1a2a3a;
+  border: 1px solid #3b82f6;
+  color: #3b82f6;
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+  margin-right: 16px;
+}
+
+.stock-nav-link:hover {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.stock-nav-icon {
+  font-size: 1rem;
 }
 
 .github-link {
@@ -867,6 +909,65 @@ const startSimulation = () => {
   100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
 }
 
+/* 주식 예측 배너 */
+.stock-banner {
+  margin-top: 48px;
+  margin-bottom: 0;
+}
+
+.stock-banner-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(135deg, #0f1e35 0%, #0a1628 100%);
+  border: 1px solid #1d3557;
+  border-radius: 10px;
+  padding: 24px 32px;
+}
+
+.stock-banner-icon {
+  font-size: 2.2rem;
+  flex-shrink: 0;
+}
+
+.stock-banner-text {
+  flex: 1;
+}
+
+.stock-banner-title {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #3b82f6;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.stock-banner-desc {
+  font-size: 0.92rem;
+  color: #94a3b8;
+  line-height: 1.5;
+}
+
+.stock-banner-btn {
+  display: inline-block;
+  background: #3b82f6;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 11px 22px;
+  border-radius: 8px;
+  white-space: nowrap;
+  transition: background 0.2s, transform 0.1s;
+  flex-shrink: 0;
+}
+
+.stock-banner-btn:hover {
+  background: #2563eb;
+  transform: translateX(3px);
+}
+
 /* 响应式适配 */
 @media (max-width: 1024px) {
   .dashboard-section {
@@ -885,6 +986,18 @@ const startSimulation = () => {
   .hero-logo {
     max-width: 200px;
     margin-bottom: 20px;
+  }
+
+  .stock-banner-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 20px;
+  }
+
+  .stock-banner-btn {
+    width: 100%;
+    text-align: center;
   }
 }
 </style>

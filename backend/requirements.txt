@@ -33,3 +33,10 @@ python-dotenv>=1.0.0
 
 # 数据验证
 pydantic>=2.0.0
+
+# ============= 주식 데이터 (Stock Prediction) =============
+# 한국거래소(KRX) 주가/재무 데이터
+pykrx>=1.0.45
+# 네이버 금융 뉴스 파싱
+beautifulsoup4>=4.12.0
+requests>=2.31.0
